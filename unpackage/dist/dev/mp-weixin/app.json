@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/study/study",
+    "pages/mine/mine",
+    "pages/intergarl/intergarl"
+  ],
+  "subPackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/order/order",
+        "pages/favorites/favorites",
+        "pages/answer_sheet/answer_sheet",
+        "pages/answer_sheet/answer_sheet_all",
+        "pages/wrong_question/wrong_question",
+        "pages/garbage_detail/garbage_detail",
+        "pages/test/test",
+        "pages/test_collection/test_collection",
+        "pages/about/about"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "垃圾分类",
+    "navigationBarBackgroundColor": "#10d169",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/myIcon/首页.png",
+        "selectedIconPath": "static/myIcon/首页 (1).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "iconPath": "static/myIcon/学习.png",
+        "selectedIconPath": "static/myIcon/学习 (1).png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/intergarl/intergarl",
+        "iconPath": "static/myIcon/兑换券.png",
+        "selectedIconPath": "static/myIcon/兑换券 (1).png",
+        "text": "积分"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/myIcon/我的.png",
+        "selectedIconPath": "static/myIcon/我的 (1).png",
+        "text": "我的"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "startLocationUpdate",
+    "onLocationChange",
+    "chooseLocation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于查看附近垃圾桶位置信息"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

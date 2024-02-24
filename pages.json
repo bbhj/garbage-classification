@@ -1,0 +1,113 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/study/study"
+
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/intergarl/intergarl",
+			"style": {
+				"navigationBarTitleText": "积分"
+			}
+		}
+
+	],
+	"subPackages": [{
+		"root": "packageA",
+		"pages": [{
+				"path": "pages/order/order",
+				"style": {
+					"navigationBarTitleText": "兑换记录"
+				}
+			},
+			{
+				"path": "pages/favorites/favorites",
+				"style": {
+					"navigationBarTitleText": "收藏"
+				}
+			},
+			{
+				"path": "pages/answer_sheet/answer_sheet",
+				"style": {
+					"navigationBarTitleText": "答题卡"
+				}
+			},
+			{
+				"path": "pages/answer_sheet/answer_sheet_all",
+				"style": {
+					"navigationBarTitleText": "答题卡"
+				}
+			},
+			{
+				"path": "pages/wrong_question/wrong_question",
+				"style": {
+					"navigationBarTitleText": "错题集"
+				}
+			},
+			{
+				"path": "pages/garbage_detail/garbage_detail"
+			},
+			{
+				"path": "pages/test/test",
+				"style": { 
+					"navigationBarTitleText": "测试"
+				}
+			},
+			{
+				"path": "pages/test_collection/test_collection",
+				"style": {
+					"navigationBarTitleText": "题库" 
+				}
+			},
+			{
+				"path": "pages/about/about",
+				"style": {
+					"navigationBarTitleText": "关于"
+				}
+			}
+		]
+	}],
+	"requiredBackgroundModes": ["location"],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "垃圾分类",
+		"navigationBarBackgroundColor": "#10d169",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/myIcon/首页.png",
+				"selectedIconPath": "static/myIcon/首页 (1).png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/study/study",
+				"iconPath": "static/myIcon/学习.png",
+				"selectedIconPath": "static/myIcon/学习 (1).png",
+				"text": "学习"
+			},
+			{
+				"pagePath": "pages/intergarl/intergarl",
+				"iconPath": "static/myIcon/兑换券.png",
+				"selectedIconPath": "static/myIcon/兑换券 (1).png",
+				"text": "积分"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/myIcon/我的.png",
+				"selectedIconPath": "static/myIcon/我的 (1).png",
+				"text": "我的"
+			}
+		]
+	}
+}

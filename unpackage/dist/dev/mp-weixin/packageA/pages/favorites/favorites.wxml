@@ -1,0 +1,1 @@
+<view><block wx:for="{{Favs}}" wx:for-item="item" wx:for-index="index" wx:key="index"><uni-card vue-id="{{'3e8faf38-1-'+index}}" title="{{item.title}}" extra="{{item.answer}}" data-event-opts="{{[['^click',[['cancelFav',['$0'],[[['Favs','',index,'queId']]]]]]]}}" bind:click="__e" bind:__l="__l"></uni-card></block></view>

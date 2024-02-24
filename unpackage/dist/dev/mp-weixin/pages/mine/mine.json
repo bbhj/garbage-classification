@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "zwy-popup": "/uni_modules/zwy-popup/components/zwy-popup/zwy-popup"
+  }
+}

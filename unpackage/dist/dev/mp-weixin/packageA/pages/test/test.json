@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "测试",
+  "usingComponents": {
+    "uni-steps": "/uni_modules/uni-steps/components/uni-steps/uni-steps",
+    "uni-countdown": "/uni_modules/uni-countdown/components/uni-countdown/uni-countdown",
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-data-checkbox": "/uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox",
+    "uni-drawer": "/uni_modules/uni-drawer/components/uni-drawer/uni-drawer"
+  }
+}

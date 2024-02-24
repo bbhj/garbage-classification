@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "答题卡",
+  "usingComponents": {
+    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+    "uni-data-checkbox": "/uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox"
+  }
+}
